@@ -1,0 +1,57 @@
+body {
+    background: url(/asset/cadrage.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* .rouage{
+    width: 1px;
+    height: auto;
+} */
+
+.rouage{
+    margin: 10px 0 0 100px;
+}
+
+.circle {
+    background-color: #9f90c1;
+    color: pink;
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#chrono{
+    font-size: 8rem;
+}
+
+
+
+.button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #843b7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+.button:hover {
+    background-color: #632969;
+}
+
+.button-container {
+    display: flex; /* Utilisation de flex pour aligner les boutons horizontalement */
+}
